@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <!-- Favicons -->
+    <link href="favicon.png" rel="icon" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <title>Gmail</title>
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="centerItem">
+    <div class="card">
+        <div class="text-center">
+            <img class="my-2" src="googlelogo_color_92x30dp.png" alt="" width="75" height="24">
+            <p class="my-2 text-center login_text">Sign in</p>
+            <p class="my-0 text-center gmail_text">to continue to Gmail</p>
+        </div>
+        <main role="main" class="inner cover my-4">
+            <form class="form-signin" name="signin_form" novalidate>
+
+                <div class="email">
+                    <p class="text-danger text-center" id="email_err"></p>
+                    <input type="email" id="inputEmail" class="p-3" placeholder="Email or phone" name="email" required autofocus><br>
+                    <a class="link_text text-decoration-none" href="#">Forgot email?</a>
+                </div>
+                <div class="password">
+                    <p class="text-danger text-center" id="pass_err"></p>
+                    <input type="password" id="inputPassword" class="p-3" placeholder="Password" name="password" required><br>
+                    <a class="link_text text-decoration-none" href="#">Forgot email?</a>
+                </div>
+
+                <div class="privacy_text my-4">
+                    <p class="m-0">Not your computer? Use Guest mode to sign in privately. </p>
+                    <a class="m-0 link_text text-decoration-none" href="#">Learn more</a>
+                </div>
+
+                <div class="d-flex justify-content-between mb-4">
+                    <a class="m-0 link_text text-decoration-none" href="#">Create account</a>
+                    <button type="button" class="btn btn-primary btn-sm font-weight-bold px-4 signin-btn" id="next">Next</button>
+                    <input type="submit" class="btn btn-primary btn-sm font-weight-bold px-4 signin-btn" id="submit" value="Sign in">
+                </div>
+            </form>
+        </main>
+    </div>
+    <div class="d-flex justify-content-between my-3">
+        <select id="inputState" class="border-0 m-0 text-muted">
+            <option selected>English (United States)</option>
+            <option>Hindi</option>
+        </select>
+        <p>
+            <span><a class="m-0 link_text text-decoration-none text-muted px-2" href="#">Help</a></span>
+            <span><a class="m-0 link_text text-decoration-none text-muted px-2" href="#">Privacy</a></span>
+            <span><a class="m-0 link_text text-decoration-none text-muted px-2" href="#">Terms</a></span>
+        </p>
+    </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Optional JavaScript -->
+    <script src="style.js"></script>
+</body>
+
+</html>
